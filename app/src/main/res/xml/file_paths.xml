@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- External storage paths -->
+    <external-path name="external" path="." />
+    <external-files-path name="external_files" path="." />
+    <external-cache-path name="external_cache" path="." />
+    
+    <!-- Internal storage paths -->
+    <files-path name="internal_files" path="." />
+    <cache-path name="internal_cache" path="." />
+    
+    <!-- Media directories -->
+    <external-path name="music" path="Music/" />
+    <external-path name="movies" path="Movies/" />
+    <external-path name="downloads" path="Download/" />
+    
+    <!-- App-specific directories -->
+    <external-files-path name="app_music" path="Music/" />
+    <external-files-path name="app_videos" path="Videos/" />
+    <external-files-path name="app_playlists" path="Playlists/" />
+    <external-files-path name="app_subtitles" path="Subtitles/" />
+    <external-cache-path name="app_thumbnails" path="Thumbnails/" />
+</paths>

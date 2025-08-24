@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material Design Color Palette -->
+    <color name="primary">#FF6B35</color>
+    <color name="primary_variant">#E55A2B</color>
+    <color name="secondary">#03DAC6</color>
+    <color name="secondary_variant">#018786</color>
+    <color name="background">#121212</color>
+    <color name="surface">#1E1E1E</color>
+    <color name="error">#CF6679</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_secondary">#000000</color>
+    <color name="on_background">#FFFFFF</color>
+    <color name="on_surface">#FFFFFF</color>
+    <color name="on_error">#000000</color>
+    
+    <!-- Custom colors for VibeStream -->
+    <color name="player_background">#000000</color>
+    <color name="control_overlay">#80000000</color>
+    <color name="seek_bar_progress">#FF6B35</color>
+    <color name="seek_bar_background">#40FFFFFF</color>
+    
+    <!-- Gesture indicator colors -->
+    <color name="volume_indicator">#FF6B35</color>
+    <color name="brightness_indicator">#FFC107</color>
+    <color name="seek_indicator">#03DAC6</color>
+</resources>
