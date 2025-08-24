@@ -209,6 +209,9 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
 
+    - name: Setup Android SDK
+      uses: android-actions/setup-android@v3
+
     - name: Cache Gradle packages
       uses: actions/cache@v4
       with:
@@ -244,7 +247,11 @@ jobs:
         chmod +x gradlew
 
     - name: Run lint
-      run: ./gradlew lint
+      run: |
+        # Clean build first to avoid stale cache issues
+        ./gradlew clean
+        # Run lint with more verbose output
+        ./gradlew lint --info
 
     - name: Upload lint reports
       uses: actions/upload-artifact@v4
